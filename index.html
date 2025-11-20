@@ -3,78 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Rourou's Portfolio</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <!-- Navbar -->
   <header>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="nav-button" href="#home">Home</a></li>
+        <li><a class="nav-button" href="#about">About</a></li>
+        <li><a class="nav-button" href="#work">Work</a></li>
+        <li><a class="nav-button" href="#resume">Resume</a></li>
+        <li><a class="nav-button" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Home Section -->
+  <!-- Home -->
   <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is my personal web page where I share my work and experiences.</p>
-    <video controls width="400">
-      <source src="myvideo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+    <h1>Welcome to My Little Space on the Internet </h1>
+    <p>Hi! I'm Roua — but you can call me Rourou.  
+       This page is a small reflection of my journey in tech, creativity, and growth.</p>
+
+    <video controls width="420">
+      <source src="intro-video.mp4" type="video/mp4">
+      Your browser doesn't support videos.
     </video>
   </section>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Roua Hammami, a web developer passionate about coding and design.</p>
+    <h2>About Me </h2>
+    <p>
+      I'm a web developer in the making, someone who loves cozy vibes,  
+      learning new things, and building a life I'm proud of.
+    </p>
+
     <ul>
-      <li>Location: Tunisia</li>
-      <li>Interests: Web Development, Design, Self-growth</li>
+      <li>From: Tunisia 🇹🇳</li>
+      <li>Currently learning: Web development</li>
+      <li>Passions: Tech, design, self-care, and personal growth</li>
     </ul>
+    
+    <img src="me.jpg" alt="My photo" width="250">
+
   </section>
 
-  <!-- Work Section -->
+  <!-- Work -->
   <section id="work">
-    <h2>My Work</h2>
+    <h2>My Work </h2>
+    <p>Here are some of the things I’ve worked on so far:</p>
+
     <table border="1">
-      <tr><th>Project</th><th>Description</th></tr>
-      <tr><td>Portfolio Website</td><td>A personal website using HTML and CSS</td></tr>
-      <tr><td>To-Do App</td><td>A small project built with JavaScript</td></tr>
+      <tr>
+        <th>Project</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Personal Portfolio</td>
+        <td>My first official web page, created with love and HTML/CSS.</td>
+      </tr>
+      <tr>
+        <td>Mini To-Do App</td>
+        <td>A simple JS project to learn DOM manipulation.</td>
+      </tr>
     </table>
   </section>
 
-  <!-- Resume Section -->
+  <!-- Resume -->
   <section id="resume">
-    <h2>Resume</h2>
-    <p>Download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+    <h2>Resume </h2>
+    <p>
+      You can download my resume here:  
+      <a href="resume.pdf" target="_blank">Open Resume</a>
+    </p>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact -->
   <section id="contact">
-    <h2>Contact Me</h2>
+    <h2>Let’s Connect </h2>
+    <p>If you want to reach out, feel free to send me a message:</p>
+
     <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name"><br><br>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name">
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br><br>
+      <br><br>
 
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email">
 
+      <br><br>
+
+      <label for="message">Your Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30"></textarea>
+
+      <br><br>
       <button type="submit">Send</button>
     </form>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Roua Hammami | All Rights Reserved</p>
+    <p>Made with love by Rourou  | © 2025</p>
   </footer>
+
 </body>
 </html>
+
